@@ -34,4 +34,9 @@ window.onload = function () {
                 $(".due-date-label").text(formatDate(dateChangeEvent.date));
             });
     });
+
+    $('#add_btn').on("click",function (){
+        alert("sdsd")
+    })
 };
+
